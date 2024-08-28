@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <!-- Encabeza -->
+    <header>
+        <a href="#" rel=""> 
+            <img src="img/logo.svg" alt="Logo de Alura" class="log">
+        </a>
+    </header>
+
+    <!-- Principal -->
+     <main>
+        <section class="encriptador">
+            <textarea class="encriptador" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador-aviso">
+                <img src="img/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minusculas y sin acentos</p>
+            </div>      
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar!</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar!</button>
+            </div>  
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./img/muñeco.svg" alt="Imangen Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="submit" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+     </main>
+
+     <!-- Pie de Pagina-->
+    <footer>
+        <p class="copyright"> &copy; copyright 2024 - Encriptador de Texto - Por Ana Gabriela Castillo Castillo</p>
+        <a href="#">
+            <img src="img/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="#">
+            <img src="img/github.svg" alt="Logo GitHub" class="Git">
+        </a>
+    </footer>
+    <script src="js/encriptador.js"></script>
+</body>
+</html>
